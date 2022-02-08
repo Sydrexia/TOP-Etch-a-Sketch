@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+}
+
+#content {
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto;
+    gap: 0px;
+    column-gap: 0px;
+    border: 2px solid black;
+    
+}
